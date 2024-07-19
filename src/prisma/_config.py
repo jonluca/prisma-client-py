@@ -33,7 +33,7 @@ class DefaultConfig(BaseSettings):
     # Engine binary versions can be found under https://github.com/prisma/prisma-engine/commits/main
     expected_engine_version: str = Field(
         env='PRISMA_EXPECTED_ENGINE_VERSION',
-        default='393aa359c9ad4a4bb28630fb5613f9c281cde053',
+        default='34ace0eb2704183d2c05b60b52fba5c43c13f303',
     )
 
     # Home directory, used to build the `binary_cache_dir` option by default, useful in multi-user
